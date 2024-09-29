@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151525415036",
+    "project_id": "proyectochasqui-77413",
+    "storage_bucket": "proyectochasqui-77413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151525415036:android:2882dcadebbabfdc1f91f9",
+        "android_client_info": {
+          "package_name": "com.example.proyectochasqui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151525415036-4nfang36qct5hrs4dcit6irio3j8e63d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmMzpZBQDhkMckBAyVRx4-2DFm1SPnv08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151525415036-4nfang36qct5hrs4dcit6irio3j8e63d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

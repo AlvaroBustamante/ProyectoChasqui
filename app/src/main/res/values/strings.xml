@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProyectoChasqui</string>
+
+
+    <string name="content"> ¡Somos ChasquiAnuncios! Nos dedicamos a ayudar a los especialistas en oficios para que publiciten sus servicios
+        por Internet, de una manera fácil, rápida y gratuita. Nuestro modelo de negocio basado en comisiones permite a cualquier trabajador afiliarse
+        fácilmente y empezar a cobrar por su trabajo de inmediato, ¡ChasquiAnuncios no te cobra por publicar! Tú mismo defines tu tarifa y ChasquiAnuncios
+        solo cobra una pequeña comisión del 10% una vez el trabajo ha sido pagado.
+  </string>
+</resources>

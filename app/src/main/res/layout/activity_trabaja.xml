@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    android:scrollbarSize="50dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFC107"
+                android:scaleType="fitXY"
+                android:src="@drawable/banner"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:background="#F1ECBD"
+        android:foregroundGravity="clip_horizontal"
+        android:visibility="visible"
+        app:itemHorizontalTranslationEnabled="false"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="#000000"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_navigation_menu"
+        />
+
+
+    <TextView
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:text="Trabaja con nosotros"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:background="#FFC107"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#F1ECBD"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/content"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/BtnSolicitud"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#A1F69C"
+        android:padding="10dp"
+        android:text="¡Iniciar solicitud!"
+        android:textColor="#000000"
+        android:textSize="16dp"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:padding="20dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Más información..."
+        android:textColor="#1D3FFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

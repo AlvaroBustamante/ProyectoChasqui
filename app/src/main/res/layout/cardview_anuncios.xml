@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:cardElevation="4dp"
+    android:id="@+id/cvanuncios"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"></RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/patrick"
+                android:id="@+id/fotoafiliado"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                 />
+
+            <LinearLayout
+                android:layout_toRightOf="@id/fotoafiliado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="4dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtNombre"
+                    android:text="Patrick Mamani"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtCategoria"
+                    android:text="Electricista"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtZona"
+                    android:text="VMT"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtContenido"
+                    android:text="Con experiencia por 2 años"
+
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/black" />
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

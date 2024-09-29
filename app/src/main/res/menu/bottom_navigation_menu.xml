@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/p1"
+        android:title="¡Trabaja con nosotros!"
+        android:enabled="true"
+        android:textStyle="bold"/>
+
+    <item
+        android:id="@+id/p2"
+        android:title="Anuncios"
+        android:enabled="true"
+        android:textStyle="bold"/>
+
+    <item
+        android:id="@+id/p3"
+        android:title="Mensaje"
+        android:enabled="true"
+        android:textStyle="bold"/>
+
+</menu>
